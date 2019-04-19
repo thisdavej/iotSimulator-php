@@ -92,7 +92,7 @@ JSON;
 The dynamic template fields of interest are:
 
 - `%timestamp` - This is substituted with the current timestamp when rendering the page.
-- %val(x,y,[decimals]) - This will render a random number between x and y.  If decimals is not supplied, the resulting number will be rounded to 2 decimals.
+- `%val(x,y,[decimals])` - This will render a random number between x and y.  If decimals is not supplied, the resulting number will be rounded to 2 decimals.
 
 In our example, we render a random sensor reading between 70 and 71 (with a default of 2 decimal places) for `Tank1` and a reading between 72 and 73 (with 1 decimal place) for `Tank2`.
 
