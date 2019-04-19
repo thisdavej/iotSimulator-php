@@ -1,6 +1,6 @@
 # iotSimulator-php
 
-The `iotSimulator.php` file provides a function for creating JSON Web APIs to simulate IoT sensor readings.  One provides a template containing the desired JSON data structure along with the upper and lower random number constraint limits for each sensor reading.  As the PHP page is refreshed, new random readings will appear each minute. Readings from previous minutes will retain their values during page refreshes rather than being replaced with new random data.
+The `iotSimulator.php` file contains a function for creating JSON Web APIs to simulate IoT sensor readings.  Provide a template containing the desired JSON data structure along with the upper and lower random number constraint limits for each sensor reading.  As the PHP page is refreshed, new random readings will appear each minute. Readings from previous minutes will retain their values during page refreshes rather than getting replaced with new random data.
 
 ## Installation
 
@@ -62,7 +62,7 @@ The rendered results will look something like this since by default 3 rows (minu
 ]
 ```
 
-Note that the php function added a "[" at start and a "]" at the end to render an array of JSON objects with each JSON object being based on the template provided.
+Note that the php function added a "[" at start and a "]" at the end to produce an array of JSON objects with each JSON object rendered based on the template provided.
 
 ## Documentation
 
